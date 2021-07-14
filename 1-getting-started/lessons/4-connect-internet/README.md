@@ -37,7 +37,7 @@ MQTT is the most popular communication protocol for IoT devices and is covered i
 
 [MQTT](http://mqtt.org) is a lightweight, open standard messaging protocol that can send messages between devices. It was designed in 1999 to monitor oil pipelines, before being released as an open standard 15 years later by IBM.
 
-MQTT has a single broker and multiple clients. All clients connect to the broker, and the broker routes messages to the relevant clients. Messages are routed using named topics, rather than being sent directly to an individual client. A client can publish to a topic, and any clients that subscribe to that topic will receive the message.
+MQTT has a single broker and multiple clients. All clients connect to the broker, and the broker routes messages to the relevant clients. Messages are routed using named topics, rather than being sent directly to an individual client. A broker can publish to a topic, and any clients that subscribe to that topic will receive the message.
 
 ![IoT device publishing telemetry on the /telemetry topic, and the cloud service subscribing to that topic](../../../images/mqtt.png)
 
